@@ -63,8 +63,8 @@ body {
 
 header {
     background-image: image-set(
-        url("images/Child\ Reaching\ for\ the\ Sky-small.png") 1x,
-        url("images/Child\ Reaching\ for\ the\ Sky.png") 2x
+        url("images/Child\ Reaching\ for\ the\ Sky-small.webp") 1x,
+        url("images/Child\ Reaching\ for\ the\ Sky.webp") 2x
     );
     background-size: cover;
     background-repeat: no-repeat;
@@ -247,30 +247,30 @@ body {
         overflow: hidden;
 
         &:nth-of-type(1) {
-            background: url("images/Smiling\ Child\ with\ Indonesian\ Flag.png")
+            background: url("images/Smiling\ Child\ with\ Indonesian\ Flag.webp")
                 no-repeat 50% / cover;
         }
         &:nth-of-type(2) {
-            background: url("images/A\ little\ child\ in\ a\ blue\ shirt\ smiling.png")
+            background: url("images/A\ little\ child\ in\ a\ blue\ shirt\ smiling.webp")
                 no-repeat 50% / cover;
         }
         &:nth-of-type(3) {
-            background: url("images/A\ small\ child\ smiled\ while\ tilting\ their\ head..png")
+            background: url("images/A\ small\ child\ smiled\ while\ tilting\ their\ head.webp")
                 no-repeat 50% / cover;
         }
         &:nth-of-type(4) {
-            background: url("images/A\ child\ holding\ money..png") no-repeat
+            background: url("images/A\ child\ holding\ money.webp") no-repeat
                 50% / cover;
         }
         &:nth-of-type(5) {
-            background: url("images/Smiling\ girl\ in\ head\ piece.png")
+            background: url("images/Smiling\ girl\ in\ head\ piece.webp")
                 no-repeat 50% / cover;
         }
         &:nth-of-type(6) {
-            background: url("images/smiling\ girls.png") no-repeat 50% / cover;
+            background: url("images/smiling\ girls.webp") no-repeat 50% / cover;
         }
         &:nth-of-type(7) {
-            background: url("images/Jumping\ kids.png") no-repeat 50% / cover;
+            background: url("images/Jumping\ kids.webp") no-repeat 50% / cover;
         }
 
         .content {

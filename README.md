@@ -26,8 +26,6 @@ For the main section, I used a 3x3 grid to contain three sections of image showc
 
 The left and right side containers can be animated on hover. The left side image will move 300px to the top, and the right side image will move 300px to the bottom from their original positions.
 
-## Carousel
-
 ## Color Reference
 
 | Color         | Hex                                                              |
@@ -37,19 +35,27 @@ The left and right side containers can be animated on hover. The left side image
 | Example Color | ![#387ADF](https://via.placeholder.com/10/387ADF?text=+) #387ADF |
 | Example Color | ![#50C4ED](https://via.placeholder.com/10/50C4ED?text=+) #50C4ED |
 
-## GitHub
+## URL links
 
+[GitHub Repository](https://github.com/RevoU-FSSE-4/module-2-anojumisa)
 [GitHub Repository](https://github.com/RevoU-FSSE-4/module-2-anojumisa)
 
 ## Lessons Learned
 
 This project focuses on learning how to create a website using CSS, particularly incorporating grid animations. The goal is to gain hands-on experience in applying CSS techniques to enhance website design and interactivity.
 
+## Lighthouse Score
+
+In this assignment, I achieved a high overall score in the Google Lighthouse audit, as evidenced by the following screenshot:
+![Google Lighthouse Score](/readme%20assets/Screenshot%202024-03-01%20195201.png)
+
+One approach to improve performance, as suggested by Lighthouse, is to convert PNG images to WebP format.
+
 ## Deployment
 
 ### GitHub Actions
 
-In this assignment, we used GitHub Actions to automate deployment to Netlify.
+In this assignment, I used GitHub Actions to automate deployment to Netlify.
 
 Here's a breakdown of the initial GitHub Actions steps:
 
