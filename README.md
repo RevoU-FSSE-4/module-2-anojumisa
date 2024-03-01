@@ -38,7 +38,7 @@ The left and right side containers can be animated on hover. The left side image
 ## URL links
 
 [GitHub Repository](https://github.com/RevoU-FSSE-4/module-2-anojumisa)
-[GitHub Repository](https://github.com/RevoU-FSSE-4/module-2-anojumisa)
+[Website URL](https://childrenofindonesia.site/)
 
 ## Lessons Learned
 
