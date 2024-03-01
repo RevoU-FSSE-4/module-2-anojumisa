@@ -39,11 +39,88 @@ The left and right side containers can be animated on hover. The left side image
 
 ## GitHub
 
-[GitHub Repository]()
+[GitHub Repository](https://github.com/RevoU-FSSE-4/module-2-anojumisa)
 
 ## Lessons Learned
 
 This project focuses on learning how to create a website using CSS, particularly incorporating grid animations. The goal is to gain hands-on experience in applying CSS techniques to enhance website design and interactivity.
+
+## Deployment
+
+### GitHub Actions
+
+In this assignment, we used GitHub Actions to automate deployment to Netlify.
+
+Here's a breakdown of the initial GitHub Actions steps:
+
+1. Verify Remote Repository: I used `git remote -v` to check my current remote repository.
+   ![git command - remote repository](/readme%20assets/Screenshot%202024-02-29%20195019.png)
+2. Switch to Main Branch: I switched to the working branch (main) using `git checkout main`.
+   ![git command - checkout to main branch](/readme%20assets/Screenshot%202024-02-29%20190605.png)
+3. Check for Changes: I checked the status of tracked work updates with `git status`.
+   ![git command - status check](/readme%20assets/Screenshot%202024-02-29%20190825.png)
+4. Stage Modifications: Since there were modified files, I added them to the staging area using `git add .`.
+   ![git command - add files to the staging area](/readme%20assets/Screenshot%202024-02-29%20194754.png)
+5. Commit Changes: I committed all changes using `git commit -m "descriptive message"`. In this case, the commit message was `"adjust background image size"` to reflect the change made.
+   ![git command - committing changes](/readme%20assets/Screenshot%202024-02-29%20195048.png)
+6. Push to Remote Repository: Finally, I pushed all changes to the remote repository using `git push origin main`.
+   ![git command - pushing changes to the remote repository](/readme%20assets/Screenshot%202024-02-29%20195117.png)
+
+### Website Hosting
+
+The next step involves hosting the final website on a provider, Netlify. Here's how I did it:
+
+1. Sign Up on Netlify: I signed up for an account on Netlify.
+   ![Netlify landing page](/readme%20assets/Screenshot%202024-02-28%20211008.png)
+2. Connect to GitHub: I chose the "Sign up using GitHub" option to connect my Netlify account to my GitHub account.
+   ![Netlify sign up page](/readme%20assets/Screenshot%202024-02-28%20211108.png)
+3. Import Existing Project: On the "Sites" tab, I clicked "Add new site" and chose "Import an existing project."
+   ![Netlify add sites page](/readme%20assets/Screenshot%202024-02-28%20215814.png)
+4. Deploy with GitHub: Since my code repository is located in GitHub Classroom, I selected "Deploy with GitHub."
+   ![Netlify add new site page](/readme%20assets/Screenshot%202024-02-28%20215907.png)
+   ![Netlify deploy project page](/readme%20assets/Screenshot%202024-02-28%20215933.png)
+5. Configure Netlify and Select Repository: I followed the prompts to configure Netlify on GitHub and then selected the specific repository containing my website code.
+   ![Netlify repository option page](/readme%20assets/Screenshot%202024-02-28%20220140.png)
+
+6. Continuous deployment: This is a feature where all code changes are automatically deployed to the Netlify hosting provider after being pushed to the remote repository. Once deployed, the changes are reflected on my website.
+   ![Netlify continuous deployment section](/readme%20assets/Screenshot%202024-02-29%20224440.png)
+
+7. Enter Site Name and Deploy: Finally, I entered a desired site name and clicked the "Deploy" button at the bottom.
+   ![Netlify site name option page](/readme%20assets/Screenshot%202024-02-28%20221221.png)
+   ![Netlify web deploy page](/readme%20assets/Screenshot%202024-02-28%20221253.png)
+
+### Custom Domain
+
+Next step is to publish my website using a custom domain. I purchased a domain name using Niagahoster, a local domain registrar in Indonesia. Here's the process:
+
+1. Choose domain name: I accessed the "Domain" section through the navigation menu on Niagahoster's website.
+   ![Niagahoster landing page - ](/readme%20assets/Screenshot%202024-02-28%20211918.png)
+2. Check availability: I typed in my desired domain name and checked its availability.
+   ![Niagahoster domain availability check](/readme%20assets/Screenshot%202024-02-28%20212240.png)
+3. Select the domain: I chose my preferred domain extension (e.g., ".site").
+   ![Niagahoster domain extension option](/readme%20assets/Screenshot%202024-02-28%20212340.png)
+4. Create an account: I created an account on Niagahoster to complete the purchase.
+   ![Niagahoster create account page](/readme%20assets/Screenshot%202024-02-28%20212455.png)
+5. Complete payment: After navigating to the payment page, I completed the payment process.
+   ![Niagahoster successful domain purchase](/readme%20assets/Screenshot%202024-02-28%20213423.png)
+
+### Publish the Website
+
+The final step is to connect my custom domain to the website hosted on Netlify. Here's how I did it:
+
+1. Find Netlify nameservers: I accessed the Netlify settings and located the four nameservers provided for my website.
+   ![Netlify DNS domain name servers](/readme%20assets/Screenshot%202024-02-28%20222450.png)
+2. Update Niagahoster nameservers: I logged into my Niagahoster account and navigated to the "Domain Management" or "DNS Management" section. Then, I replaced the existing nameservers with the four nameservers copied from Netlify.
+   ![Niagahoster name servers input](/readme%20assets/Screenshot%202024-02-28%20222837.png)
+3. Wait for propagation: Niagahoster will display a message like "Awaiting External DNS." This is because it can take up to 24 hours for the domain to fully integrate with my website.
+   ![Niagahoster awaiting external DNS page](/readme%20assets/Screenshot%202024-02-28%20221850.png)
+4. Verification and completion: Once the process is complete, the Niagahoster DNS settings will show a checkmark next to the Netlify nameservers, indicating successful integration. Your website will then be accessible using your custom domain!
+   ![Niagahoster Netlify DNS Completion](/readme%20assets/Screenshot%202024-02-28%20224000.png)
+
+## Final Result
+
+The final result of my website is now live at https://childrenofindonesia.site
+![Children of Indonesia Webpage](/readme%20assets/Screenshot%202024-02-29%20at%2020-12-32%20Children%20of%20Indonesia.png)
 
 ## Acknowledgements
 
